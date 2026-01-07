@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motore Compleanni — Organizza la tua festa</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <meta name="description" content="Trova fornitori per feste di compleanno nella tua città. Confronta location, animazione, catering, decorazioni e molto altro.">
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+  <!-- HERO -->
+  <header class="relative w-full bg-gradient-to-br from-fuchsia-600 to-orange-500 text-white">
+    <div class="max-w-6xl mx-auto px-6 py-24 flex flex-col gap-6">
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight drop-shadow">
+        Organizza il compleanno perfetto in pochi clic
+      </h1>
+
+      <p class="text-lg md:text-xl opacity-90 max-w-3xl">
+        Trova fornitori per feste di compleanno nella tua città. Confronta location,
+        animazione, catering, decorazioni e molto altro.
+      </p>
+
+      <div class="bg-white text-slate-900 rounded-2xl shadow-xl p-4 grid md:grid-cols-4 gap-3 mt-4">
+        <input class="rounded-xl border p-3" placeholder="Città">
+        <select class="rounded-xl border p-3">
+          <option>Categoria</option>
+          <option>Location</option>
+          <option>Animazione</option>
+          <option>Catering</option>
+        </select>
+        <select class="rounded-xl border p-3">
+          <option>Fascia prezzo</option>
+          <option>€</option>
+          <option>€€</option>
+          <option>€€€</option>
+        </select>
+        <button class="rounded-xl bg-fuchsia-600 text-white font-semibold p-3 shadow">
+          Trova fornitori
+        </button>
+      </div>
+
+      <button class="rounded-xl bg-white/20 backdrop-blur px-4 py-2 text-sm font-medium mt-2 w-fit">
+        Ricevi l’anteprima del sito
+      </button>
+    </div>
+  </header>
+
+  <!-- COME FUNZIONA -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3xl md:text-4xl font-bold mb-10">Come funziona</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col gap-2">
+        <div class="w-10 h-10 rounded-full bg-fuchsia-100 text-fuchsia-700 grid place-content-center font-bold">1</div>
+        <h3 class="text-xl font-semibold">Scegli la città</h3>
+        <p class="opacity-80">Inserisci dove vuoi organizzare la festa</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col gap-2">
+        <div class="w-10 h-10 rounded-full bg-fuchsia-100 text-fuchsia-700 grid place-content-center font-bold">2</div>
+        <h3 class="text-xl font-semibold">Filtra per categoria e prezzo</h3>
+        <p class="opacity-80">Trova solo i fornitori adatti al tuo budget</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6 flex flex-col gap-2">
+        <div class="w-10 h-10 rounded-full bg-fuchsia-100 text-fuchsia-700 grid place-content-center font-bold">3</div>
+        <h3 class="text-xl font-semibold">Contatta o salva i preferiti</h3>
+        <p class="opacity-80">Zero stress e preventivi più rapidi</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CATEGORIE -->
+  <section class="bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10">Categorie più cercate</h2>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="rounded-2xl bg-slate-100 p-5"><h4 class="font-semibold mb-1">Location</h4><p class="text-sm opacity-70">Scopri i fornitori</p></div>
+        <div class="rounded-2xl bg-slate-100 p-5"><h4 class="font-semibold mb-1">Animazione</h4><p class="text-sm opacity-70">Scopri i fornitori</p></div>
+        <div class="rounded-2xl bg-slate-100 p-5"><h4 class="font-semibold mb-1">Catering & Torte</h4><p class="text-sm opacity-70">Scopri i fornitori</p></div>
+        <div class="rounded-2xl bg-slate-100 p-5"><h4 class="font-semibold mb-1">Decorazioni</h4><p class="text-sm opacity-70">Scopri i fornitori</p></div>
+        <div class="rounded-2xl bg-slate-100 p-5"><h4 class="font-semibold mb-1">Fotografi</h4><p class="text-sm opacity-70">Scopri i fornitori</p></div>
+        <div class="rounded-2xl bg-slate-100 p-5"><h4 class="font-semibold mb-1">DJ & Musica</h4><p class="text-sm opacity-70">Scopri i fornitori</p></div>
+        <div class="rounded-2xl bg-slate-100 p-5"><h4 class="font-semibold mb-1">Giochi & Gonfiabili</h4><p class="text-sm opacity-70">Scopri i fornitori</p></div>
+        <div class="rounded-2xl bg-slate-100 p-5"><h4 class="font-semibold mb-1">Party Planner</h4><p class="text-sm opacity-70">Scopri i fornitori</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICI -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3
